@@ -24,7 +24,7 @@ const Home = () => {
   return (
     <main>
       <div>
-        <h1 className={css.HomeHeading}>The most popular</h1>
+        <h1 className={css.HomeHeading}>The most popular!!!</h1>
         {isLoading ? (
           <Loader />
         ) : (

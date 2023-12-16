@@ -1,29 +1,27 @@
 .HomeHeading {
-  max-width: 350px;
+  width: 400px;
   margin: 20px auto;
   padding: 20px;
   text-align: center;
   color: wheat;
   font-size: 43px;
-  border: 2px solid rgb(134, 92, 158);
-  border-radius: 18px;
-  animation: title 10s infinite;
-
+ 
+  animation: title 6s infinite;
+  opacity: 0.1;
 }
 @keyframes title {
-  0% {
+  20% {
     transform: scale(1);
-    opacity: 1;
-  }
-  25%, 75% {
     opacity: 0.8;
-
   }
-  50% {
-    transform: scaleX(1.1);
+
+  40%, 70% {
+    transform: scale(1.2);
     opacity: 1;
   }
-
+  80% {
+    opacity: 0.1;
+  }
 }
 .HomeList {
   list-style-type: none;

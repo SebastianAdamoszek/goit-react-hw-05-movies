@@ -4,7 +4,7 @@ axios.defaults.baseURL = 'https://api.themoviedb.org/3/';
 
 const API_KEY = 'e8ab892b2ac2cd96b9f442270f7b9c45';
 
-// Funkcja do pobierania aktualnie najpopularniejszych filmów
+// Pobieranie aktualnie najpopularniejszych filmów
 const getTrending = async () => {
   try {
     const response = await axios.get(`trending/all/day?api_key=${API_KEY}`);
@@ -19,7 +19,7 @@ const getTrending = async () => {
   }
 };
 
-// Funkcja do wyszukiwania filmu po słowie kluczowym
+// Wyszukiwanie filmu po słowie kluczowym
 const searchMovies = async query => {
   try {
     const response = await axios.get(
@@ -35,7 +35,7 @@ const searchMovies = async query => {
   }
 };
 
-// Funkcja do pobierania pełnych informacji o filmie
+// Pobieranie wszytkich informacji o filmie
 const getMovieDetails = async movieId => {
   try {
     const response = await axios.get(`movie/${movieId}?api_key=${API_KEY}`);
@@ -49,7 +49,7 @@ const getMovieDetails = async movieId => {
   }
 };
 
-// Funkcja do pobierania informacji o aktorach w filmie
+// Pobieranie informacji o aktorach w danym filmie
 const getMovieCredits = async movieId => {
   try {
     const response = await axios.get(
@@ -65,7 +65,7 @@ const getMovieCredits = async movieId => {
   }
 };
 
-// Funkcja do pobierania recenzji o filmie
+// Pobieranie recenzji o filmie
 const getMovieReviews = async movieId => {
   try {
     const response = await axios.get(

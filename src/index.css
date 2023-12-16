@@ -9,7 +9,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: linear-gradient(90deg, #5f57a5, #3124c4, #04042b);
-
+ 
   animation: start 2s;
 }
 @keyframes start {
