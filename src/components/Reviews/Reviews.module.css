@@ -1,0 +1,26 @@
+.ErrorHeading {
+  color: rgb(132, 2, 2);
+}
+.ReviewsList {
+  padding: 20px 50px;
+  text-align: justify;
+  list-style-type: none;
+}
+.ListItem {
+  padding-bottom: 10px;
+  border-bottom: 2px solid rgb(134, 92, 158);
+}
+.ReviewAuthor {
+  color: whitesmoke;
+  letter-spacing: 1.5px;
+
+}
+.ReviewRating {
+  color: whitesmoke;
+  letter-spacing: 1.5px;
+
+}
+.Review {
+  line-height: 1.4;
+  letter-spacing: 1.5px;
+}

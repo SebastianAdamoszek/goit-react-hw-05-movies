@@ -1,0 +1,39 @@
+.ErrorHeading {
+  color: rgb(132, 2, 2);
+}
+.CastList {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: start;
+  padding: 0 50px;
+}
+.ActorContainer {
+  position: relative;
+}
+.ActorImage {
+  width: 200px;
+  height: 300px;
+  border-top-right-radius: 30px;
+  border: 2px solid rgb(21, 175, 189);
+  box-shadow: 0 0 20px rgb(21, 175, 189) ;
+}
+.ActorInfo {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  width: 100%;
+}
+.ActorName {
+  margin: 5px;
+  font-size: 20px;
+  color: rgb(21, 175, 189);
+}
+.ActorCharacter {
+  margin: 5px;
+  color: rgb(21, 175, 189);
+}

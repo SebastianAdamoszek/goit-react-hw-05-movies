@@ -1,0 +1,44 @@
+.ErrorHeading {
+  padding: 24px 12px;
+  text-align: center;
+  color: rgb(255, 0, 0);
+}
+.MovieListBox {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  padding-left: 50px;
+
+}
+.MovieList {
+  list-style: none;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 22px;
+  font-weight: 500;
+}
+.MovieListItem {
+  transition: transform 0.3s ease-in-out;
+
+}
+.MovieListItem:hover {
+  transform: scale(1.02);
+}
+.MovieListLink {
+  color: rgb(211, 175, 189);
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.MovieListStyle {
+  width: 7px;
+  height: 7px;
+  background-color: transparent;
+  display: inline-block;
+  transform: rotate(45deg);
+  border: rgb(211, 175, 189) 1.5px solid;
+}

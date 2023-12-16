@@ -1,0 +1,86 @@
+.Wrapper {
+  margin-top: 50px;
+  padding: 0 300px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  align-items: center;
+  flex-direction: column;
+}
+.Image {
+  max-width: 360px;
+  border-radius: 18px;
+  box-shadow: 0px 0px 30px rgb(134, 92, 158);
+}
+.ErrorHeading {
+  margin-top: 40px;
+  text-align: center;
+  color: rgb(134, 92, 158);
+  font-size: 35px;
+}
+.Heading {
+  color: rgb(21, 175, 189);
+  font-size: 35px;
+}
+.Description {
+  color: rgb(21, 175, 189);
+}
+.Overview {
+  text-align: justify;
+  line-height: 1.4;
+}
+.GenresList {
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+  padding: 0;
+  list-style-type: none;
+}
+.MoreInfo {
+  margin-top: 40px;
+  color: rgb(21, 175, 189);
+  text-align: center;
+}
+.List {
+  list-style-type: none;
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  padding: 0;
+  margin: 50px 0;
+}
+.List li {
+  transition: transform 0.2s ease-in-out;
+}
+.List li:hover {
+  transform: scale(1.05);
+}
+
+.Link {
+  border: 2px solid rgb(21, 175, 189);
+  padding: 10px;
+  background-color: rgba(17, 35, 85, 0.6);
+  font-weight: 500;
+  border-radius: 18px;
+  text-decoration: none;
+  color: rgb(21, 175, 189);
+  font-size: 18px;
+
+}
+
+.prevLink {
+  display: flex;
+  justify-content: flex-start;
+  text-align: center;
+  padding: 8px;
+  text-decoration: none;
+  font-size: 34px;
+  color: rgb(134, 92, 158);
+  border: 2px solid rgb(134, 92, 158);
+  border-radius: 18px;
+  transition: transform 0.3s ease-in-out;
+}
+.prevLink:hover {
+  transform: translateX(-15px) scaleY(0.9);
+
+}

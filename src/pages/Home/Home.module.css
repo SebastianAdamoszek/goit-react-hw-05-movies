@@ -1,0 +1,54 @@
+.HomeHeading {
+  max-width: 350px;
+  margin: 20px auto;
+  padding: 20px;
+  text-align: center;
+  color: wheat;
+  font-size: 43px;
+  border: 2px solid rgb(134, 92, 158);
+  border-radius: 18px;
+  animation: title 10s infinite;
+
+}
+@keyframes title {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  25%, 75% {
+    opacity: 0.8;
+
+  }
+  50% {
+    transform: scaleX(1.1);
+    opacity: 1;
+  }
+
+}
+.HomeList {
+  list-style-type: none;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: row;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+.HomeListItem {
+  transition: transform 200ms ease-in-out;
+  color:  rgb(134, 92, 158);
+}
+
+.HomeListItem:hover {
+  transform: scale(1.03);
+}
+
+.HomeListLink {
+  text-decoration: none;
+}
+.HomeListImage {
+  max-width: 150px;
+  border-radius: 15px;
+  border: 2px solid rgb(134, 92, 158);
+  box-shadow: 0px 0px 20px rgb(134, 92, 158);
+}
