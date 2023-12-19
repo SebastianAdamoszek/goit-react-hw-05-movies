@@ -1,5 +1,5 @@
+import React from 'react';
 import { useState, useEffect } from 'react';
-
 import { searchMovies } from 'Api/Api';
 import Searchbar from 'components/SearchBar/SearchBar';
 import Notiflix from 'notiflix';

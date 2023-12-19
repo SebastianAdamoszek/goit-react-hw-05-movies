@@ -1,3 +1,4 @@
+import React from 'react';
 import css from './NoFound.module.css';
 
 const NoFound = () => {
