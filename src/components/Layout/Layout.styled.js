@@ -4,13 +4,15 @@ import { NavLink } from 'react-router-dom';
 export const Container = styles.div`
   max-width: 100vw;
   margin: 0 auto;
+  max-width: 500px;
+
 `;
 
 export const Header = styles.header`
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 100px;
+  justify-content: space-between;
+  // gap: 80px;
   border-bottom: 1px solid rgb(134, 92, 158);
   box-shadow: 0px 4px 8px rgba(134, 23, 158, 0.5);
 

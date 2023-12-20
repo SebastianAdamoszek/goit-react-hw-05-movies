@@ -1,6 +1,7 @@
 .Wrapper {
+  min-width: 360px;
   margin-top: 50px;
-  padding: 0 300px;
+  /* padding: 0 300px; */
   display: flex;
   justify-content: center;
   gap: 50px;
