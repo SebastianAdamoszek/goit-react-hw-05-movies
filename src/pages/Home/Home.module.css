@@ -8,13 +8,13 @@
 
   animation: title 6s infinite;
   opacity: 0.1;
-}
-@media only screen and (min-width: 490px) {
-.HomeHeading {
+
+  @media only screen and (min-width: 490px) {
     width: 400px;
     font-size: 43px;
   }
 }
+
 @keyframes title {
   20% {
     transform: scale(1);
